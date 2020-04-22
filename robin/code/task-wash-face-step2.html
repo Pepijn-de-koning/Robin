@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>robin assistant</title>
+  <link rel="stylesheet" href="css/task-wash-face.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  <script>
+      $(document).ready(function () {
+          // Hide the div
+          $("#div1").hide();
+          // Show the div after 5s
+          $("#div1").delay(5000).fadeIn(100);
+      });
+  </script>
+</head>
+
+<body>
+
+  <nav>
+    <p>wash your face</p>
+  </nav>
+
+  <main>
+    <p>step 2.</p>
+    <p>hold a towel under water for</p>
+    <p class="seconds">5 seconds</p>
+    <img src="img/step1.jpg" alt="step 1 wash face" width="400px">
+
+    <div id="div1">
+      <p class="swipe"><a class="step" href="task-wash-face-step3.html">next step</a></p>
+    </div>
+
+  </main>
+
+  <footer>
+    <div>
+      <a class="stop" href="stop-step2.html">stop</a>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+h1 {
+  color: #4ED4A2;
+  font-size: 140px;
+  padding-top: 300px;
+  margin-bottom: 700px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-slider {
+  padding-bottom: 40px;
+  font-size: 40px;
+  color: #707070;
+  text-align: center;
+}
+
+/* Styling voor inlog en register buttons */
+.button-style {
+  border-radius: 20px;
+  font-size: 40px;
+  padding: 20px 350px 20px 350px;
+  display: block;
+  background-color: #F1F1F1;
+  border-color: #F1F1F1;
+  border-style: solid;
+  color: #707070;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+
+.login-button:active {
+  background-color: #B2991E;
+}
+
+.register-button:active {
+  background-color: #B2991E;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.green {
+  color: #4ED4A2;
+}
+
+.fontsize {
+  font-size: 60px;
+}

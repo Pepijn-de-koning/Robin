@@ -1,0 +1,81 @@
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.back-button {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.back-button a {
+  text-decoration: none;
+  color: #4ED4A2;
+  font-size: 30px;
+}
+
+.content-page2 {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 250px;
+}
+
+.header-page2 {
+  font-size: 60px;
+  color: #4ED4A2;
+}
+
+.login-message {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #707070;
+}
+
+.inlog-form {
+  margin-top: 100px;
+  display: block;
+  text-align: center;
+}
+
+.login-field {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border-style: none;
+  padding: 30px 10px 30px 10px;
+  width: 90%;
+  background-color: #F1F1F1;
+  color: #F0DE86;
+  text-align: left;
+}
+
+.register-field {
+  border-radius: 10px;
+  border-style: none;
+  padding: 30px 10px 30px 10px;
+  width: 90%;
+  background-color: #F1F1F1;
+  color: #F0DE86;
+  text-align: left;
+}
+
+.login-button {
+  padding: 30px 410px 30px 410px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #4ED4A2;
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+input {
+  font-size: 30px;
+}
+
+label {
+  font-size: 24px;
+  color: #4ED4A2;
+  float: left;
+  padding-left: 40px;
+  padding-top: 5px;
+}
